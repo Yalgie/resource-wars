@@ -1,0 +1,34 @@
+.game_container {
+    width: calc(100% - 350px);
+    float: left;
+    background-color: #FFF;
+    max-height: 100%;
+}
+
+.inventory {
+    border: 1px solid #DDD;
+    width: 100%;
+    background-color: #F1F1F1;
+    margin-bottom: 15px;
+}
+.inventory p {
+    font-family: 'kenney_pixelregular';
+    font-size: 2em;
+    background-color: #DDD;
+    width: 100%;
+    padding: 10px 15px;
+}
+.inventory_block_main_wrap {
+    height: 85px;
+}
+.inventory_block_wrapper {
+    width: 75px;
+    float: left;
+}
+.inventory_block_wrapper img {
+    padding: 15px;
+    width: 100%;
+}
+.inventory_blocks .block {
+    margin-right: 15px;
+}

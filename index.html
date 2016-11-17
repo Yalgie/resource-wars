@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Duel</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="fonts/specimen_files/specimen_stylesheet.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="fonts/stylesheet.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/chat_styles.css">
+    <link rel="stylesheet" type="text/css" href="css/block_styles.css">
+    <link rel="stylesheet" type="text/css" href="css/game_styles.css">
+    
+  </head>
+  <body>
+
+    <div class="game_container">
+      <div class="inventory">
+        <div class="inventory_block_main_wrap"></div>
+        <p>Inventory</p>
+      </div>
+      <div class="block_container"></div>
+    </div>
+
+    <div class="chat_container">
+      
+      <ul class="chat_box"></ul>
+
+      <form class="username_form">
+        <input class="username" autocomplete="off" placeholder="Enter a username..."/>
+      </form>
+
+      <form class="message_form">
+        <input class="message" autocomplete="off" placeholder="Send a message..."/>
+      </form>
+
+    </div>
+
+    <script src="https://cdn.socket.io/socket.io-1.2.0.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+    <script src="js/chat_events.js"></script>
+    <script src="js/block_builder.js"></script>
+  </body>
+</html>

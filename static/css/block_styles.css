@@ -1,0 +1,40 @@
+.block_container {
+    text-align: center;
+    position: relative;
+    height: 0px;
+}
+.block {
+    position: relative;
+    z-index: 1;
+}
+.block_row {
+    position: relative;
+}
+.harvested {
+    visibility: hidden;
+    z-index: -1 !important;
+}
+.block_row:nth-child(1) {
+    top: 0px;
+}
+.block_row:nth-child(2) {
+    top: -96px;
+}
+.block_row:nth-child(3) {
+    top: -192px;
+}
+.block_row:nth-child(4) {
+    top: -288px;
+}
+.block_row:nth-child(5) {
+    top: -384px;
+}
+.block_row:nth-child(6) {
+    top: -480px;
+}
+.block_row:nth-child(7) {
+    top: -575px;
+}
+.game_block_wrapper {
+    width: 70px;
+}
